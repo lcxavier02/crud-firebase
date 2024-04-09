@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="450dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/mainUpload"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Upload"
+            android:textSize="18sp"
+            android:backgroundTint="@color/greem"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/mainUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Update"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/greem"
+                app:strokeColor="@color/greem"
+                app:strokeWidth="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/mainDelete"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Delete"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/greem"
+                app:strokeColor="@color/greem"
+                app:strokeWidth="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>
